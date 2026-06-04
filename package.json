@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "@imagekit/javascript": "^5.3.0",
+    "@imagekit/nodejs": "^7.5.0",
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.6.2",
+    "multer": "^2.1.1",
+    "react-router-dom": "^7.15.0"
+  },"scripts": {
+      "dev": "nodemon server.js",
+      "start": "node server.js"
+    },
+  "devDependencies": {
+    "autoprefixer": "^10.5.0",
+    "nodemon": "^3.1.14",
+    "postcss": "^8.5.14",
+    "tailwindcss": "^3.4.17"
+  }
+}
