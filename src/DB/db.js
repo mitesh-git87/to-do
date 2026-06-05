@@ -19,7 +19,7 @@ async function connectDB() {
         console.log("not connected to DB",err.message)
         throw err;
     }
-     
+      
 }
 
 
