@@ -14,7 +14,7 @@ function setAuthCookie(res, token) {
 }
 
 function clearAuthCookie(res) {
-    res.clearCookie("token", {
+    res.clearCookie("token", { 
         httpOnly: true,
         sameSite: "lax",
         secure: process.env.NODE_ENV === "production",
