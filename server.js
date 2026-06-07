@@ -13,4 +13,4 @@ const connectDB = require('./src/DB/db')
         console.error("Failed to start server (DB not connected).");
         process.exit(1);
     }
-})();
+})(); 
