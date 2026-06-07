@@ -9,7 +9,7 @@ const connectDB = require('./src/DB/db')
         app.listen(3000, () => {
             console.log("server is listning on  3000");
         });
-    } catch (err) {
+    } catch (err) {  
         console.error("Failed to start server (DB not connected).");
         process.exit(1);
     }
