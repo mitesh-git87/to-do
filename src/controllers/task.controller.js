@@ -5,7 +5,7 @@ const JWT_SECRET = process.env.JWT_SECRET || 'dev-secret-change-me';
 
 function requireUserId(req) {
     const token = req.cookies?.token;
-    if (!token) return null;
+    if (!token) return null;   
     try {
         const decoded = jwt.verify(token, JWT_SECRET);
         return decoded.id;
