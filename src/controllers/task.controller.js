@@ -10,7 +10,7 @@ function requireUserId(req) {
         const decoded = jwt.verify(token, JWT_SECRET);
         return decoded.id;
     } catch {
-        return null;
+        return null;   
     }
 }
 
